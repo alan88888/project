@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <meta name="viewport" content="width=device-width, innitial-scale=1.0">
+    <head>
+        <style>
+            * {
+                box-sizing: border-box;
+                background-color: lightgreen;
+                cursor:url(./banana.ico),auto;
+            }
+            @media only screen and (max-width:600px){
+                *{
+                    background-color: lightskyblue;
+                    cursor:url(./apple.ico),auto;
+                }
+            }
+            .title{
+                color:black;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 class="title">
+            科技114李承曄
+        </h1>
+        <script>
+            function show(){
+                document.getElementById('p1').style.display="block";
+                document.getElementById('butt').style.display="none";
+            }
+        </script>
+        <img src=".\photo3.gif" id="p1" style="display:none">
+        <input type=button id='butt' value='click me' onclick="show()">
+        <br>
+        <br>
+        <img src="./images.jpg">
+        <img src="./images1.jpg">
+        <img src="./images2.jpg" width="185px" height="125px">
+        <img src="./images3.jpg" width="185px" height="125px">
+        <img src="./images4.jpeg" width="185px" height="125px">
+        <img src="./images5.jpg" width="185px" height="125px">
+
+        <h2>
+            自我介紹:
+            <br>
+        </h2>
+        <p>
+
+            來自台師大科技系，專攻資安，喜歡做別人不做的事情，討厭當兵，和<a href="https://pgw.udn.com.tw/gw/photo.php?u=https://uc.udn.com.tw/photo/2023/09/01/draft/24680662.jpg&x=0&y=0&sw=0&sh=0&sl=W&fw=800&exp=3600&w=930">猴子</a>一起站槍哨，然後搞出了一堆麻煩
+            ，擦槍擦到槍枝卡彈，被留下來重擦。
+        </p>
+        <br>
+        <a href=" https://github.com/alan88888"> github link</p>
+
+    </body>
+</html>
